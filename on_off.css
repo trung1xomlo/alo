@@ -1,0 +1,503 @@
+.form_registration {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.form_registration.form_registration2 {
+  display: flex;
+}
+.form {
+  background: #fff;
+  width: 35%;
+  height: 680px;
+  position: relative;
+  animation: registration ease 0.5s;
+  border-radius: 5px;
+}
+
+.header-form {
+  background: linear-gradient(to right, rgb(103, 245, 138), rgb(26, 148, 255));
+  height: 110px;
+  border-radius: 2px;
+}
+.header-form .heading,
+.header-form .desc {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.form-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+.body-form {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.form-label {
+  display: block;
+  font-size: 18px;
+  margin-top: 12px;
+  font-weight: bold;
+}
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 2px solid #1dbfaf;
+  border-radius: 5px;
+  display: flex;
+}
+.form-submit {
+  width: 80%;
+  height: 60px;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: linear-gradient(to right, rgb(103, 245, 138), rgb(26, 148, 255));
+  border-radius: 3px;
+  border: #fff;
+  cursor: pointer;
+}
+.footer-form {
+  padding: 22px;
+  text-align: right;
+}
+.footer-form a {
+  color: rgb(48, 203, 230);
+}
+.login {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.login.login2 {
+  display: flex;
+}
+.form2 {
+  background: #fff;
+  width: 35%;
+  height: 680px;
+  position: relative;
+  animation: registration ease 0.5s;
+  border-radius: 5px;
+}
+.login-close {
+  position: absolute;
+  right: 0;
+  color: white;
+  padding: 9px;
+  cursor: pointer;
+}
+.header-login {
+  background: linear-gradient(to right, rgb(103, 245, 138), rgb(26, 148, 255));
+  height: 110px;
+  border-radius: 2px;
+}
+.header-login .head,
+.header-login .descc {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.secson {
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.footer-login a {
+  color: rgb(48, 203, 230);
+}
+.login-text {
+  display: block;
+  font-size: 18px;
+  margin-top: 12px;
+  font-weight: bold;
+}
+.form-login {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 2px solid #1dbfaf;
+  border-radius: 5px;
+  display: flex;
+}
+.login-submit {
+  width: 70%;
+  height: 60px;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: linear-gradient(to right, rgb(103, 245, 138), rgb(26, 148, 255));
+  border-radius: 3px;
+  border: #fff;
+  cursor: pointer;
+}
+.footer-login {
+  padding: 22px;
+  text-align: right;
+}
+.connect-login {
+  text-align: center;
+  border: 20px;
+  color: white;
+  background-color: rgb(26, 148, 255);
+  border: 2px solid rgb(26, 148, 255);
+  width: 50%;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.icon-login {
+  background-color: rgb(48, 203, 230);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 18px auto;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+.icon-login i {
+  padding-left: 10px;
+  position: relative;
+  top: 0px;
+  font-size: 25px;
+}
+.photo-account {
+  position: fixed;
+  width: 830px;
+  height: 520px;
+  margin: 0 350px;
+  border: 5px solid rgb(26, 148, 255);
+  display: none;
+}
+
+.qvsa .mess {
+  position: fixed;
+  right: 1%;
+  bottom: 3%;
+  background-color: white;
+  font-size: 3.3rem;
+  color: rgb(26, 148, 255);
+  cursor: pointer;
+  z-index: 1000;
+  border-radius: 25px;
+}
+.write-question {
+  position: fixed;
+  right: 1%;
+  bottom: 10%;
+  width: 322.5px;
+  height: 477px;
+  border: 3px solid rgb(26, 148, 255);
+  background-color: white;
+  z-index: 999;
+  border-radius: 5px;
+  display: none;
+}
+.write-question.write-question2 {
+  display: flex;
+  animation: registration ease 0.5s;
+}
+.header-question {
+  background: rgb(226, 223, 223);
+  height: 35%;
+  line-height: 30px;
+}
+.header-question i {
+  float: right;
+  font-size: 24px;
+  color: rgb(26, 148, 255);
+  margin: 5px;
+  cursor: pointer;
+  position: relative;
+}
+.header-question h4 {
+  width: 100%;
+  height: 63px;
+  color: rgb(26, 148, 255);
+  text-align: center;
+  border-radius: 10px;
+  padding-top: 3px;
+  font-size: 1.8rem;
+  padding-top: 45px;
+}
+.main-question h5 {
+  padding-left: 20px;
+  border: 3px solid rgb(26, 148, 255);
+  width: 70%;
+  height: 70px;
+  margin-left: 40px;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 5px;
+}
+.main-question i {
+  top: 55%;
+  position: absolute;
+  font-size: 25px;
+  left: 5px;
+}
+.input-question {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  bottom: 10px;
+  border: none;
+  font-size: 1.2rem;
+  padding-left: 10px;
+  outline: none;
+}
+.form-product {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+.form-product.form-product2 {
+  display: flex;
+}
+.main-form-product {
+  background: white;
+  width: 63%;
+  height: 80%;
+  margin-top: 40px;
+  position: relative;
+  animation: registration ease 0.5s;
+}
+.main-form-product i {
+  float: right;
+  font-size: 30px;
+  margin: 7px;
+  cursor: pointer;
+  color: rgb(26, 148, 255);
+}
+.main-form-product .left-form-product {
+  float: left;
+}
+.left-form-product h2 {
+  padding-left: 30px;
+}
+
+.form-product .left-form-product img {
+  max-width: 360px;
+}
+.left-form-product ul {
+  display: flex;
+}
+.left-form-product ul p {
+  font-size: 1.3rem;
+  margin-top: 3px;
+}
+.left-form-product ul li {
+  margin-left: 20px;
+  cursor: pointer;
+}
+.left-form-product-item1 {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(245, 230, 22);
+}
+.left-form-product-item1 img {
+  position: absolute;
+  top: 20px;
+  width: 320px;
+  left: 30px;
+  display: none;
+}
+.left-form-product-item1 img.img-active {
+  display: flex;
+}
+.left-form-product-item2 {
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+}
+.left-form-product-item2 img {
+  position: absolute;
+  top: 20px;
+  width: 320px;
+  left: 30px;
+  display: none;
+}
+.left-form-product-item2 img.img-active {
+  display: flex;
+}
+.left-form-product-item3 {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(243, 26, 26);
+}
+.left-form-product-item3 img {
+  position: absolute;
+  top: 0px;
+  width: 360px;
+  left: 0px;
+  display: none;
+}
+.left-form-product-item3 img.img-active {
+  display: flex;
+}
+.left-form-product .price-product {
+  display: flex;
+  padding-top: 30px;
+}
+.left-form-product .discount {
+  color: white;
+  background-color: red;
+  margin-left: 5%;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  border-radius: 30px;
+}
+.price-product .costs {
+  margin-left: 10%;
+  font-size: 1.3rem;
+}
+.left-form-product .cost {
+  color: red;
+  text-decoration: line-through;
+  font-size: 1.3rem;
+}
+.main-form-product .right-form-product h1 {
+  padding-top: 1%;
+}
+.main-form-product .right-product-item1 li {
+  display: inline-block;
+  padding: 2% 2%;
+  font-size: 1.6rem;
+}
+
+.right-product-item1 li {
+  position: relative;
+  cursor: pointer;
+}
+.right-product-item1 li.animation-parameter {
+  color: rgb(26, 148, 255);
+}
+.right-product-item1 li::after {
+  content: "";
+  height: 5px;
+  width: 0px;
+  background: rgb(26, 148, 255);
+  left: 11%;
+  border-radius: 20px;
+}
+.right-product-item1 li.animation-parameter::after {
+  width: 80%;
+  transition: width 0.5s;
+  position: absolute;
+  top: 75%;
+}
+.right-product-item2 li {
+  padding-top: 3px;
+  position: absolute;
+  margin-left: 38%;
+}
+.right-product-item2 li p {
+  font-size: 1.2rem;
+  padding-bottom: 9px;
+}
+
+.last-main-product {
+  cursor: pointer;
+}
+.last-main-product h3 {
+  width: 100%;
+  background: rgb(255, 42, 42);
+  bottom: 10.3%;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  height: 50px;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+}
+.last-main-product p {
+  position: absolute;
+  bottom: 2%;
+  background: #f75e17;
+  width: 44%;
+  text-align: center;
+  margin: 0 5%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 1.2rem;
+  color: white;
+}
+.last-main-product p i {
+  color: white;
+}
+.last-main-product p:last-child {
+  right: 0;
+}
+.right-product-list1 {
+  display: none;
+}
+.right-product-list1.parameter {
+  display: block;
+}
+.right-product-list2 {
+  display: none;
+}
+.right-product-list2.parameter {
+  display: block;
+}
+.right-product-list3 {
+  display: none;
+  padding-right: 8%;
+}
+.right-product-list3.parameter {
+  display: block;
+}
+.right-product-list4 {
+  display: none;
+  padding-right: 8%;
+}
+.right-product-list4.parameter {
+  display: block;
+}

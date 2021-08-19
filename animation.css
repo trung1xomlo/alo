@@ -1,0 +1,110 @@
+@media (max-width: 740px) {
+  .slider {
+    display: none;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1523px) {
+  .header {
+    font-size: 22px;
+  }
+  .header .left {
+    display: none;
+  }
+  .header .right {
+    float: left;
+    width: 100%;
+  }
+  .header .right .image-icon {
+    padding-left: 80px;
+  }
+  .header .right i {
+    padding-left: 100px;
+  }
+  .header .right li {
+    display: inline-block;
+    justify-content: space-around;
+    padding-left: 0px;
+  }
+  .search {
+    margin-top: 9%;
+    height: 60px;
+  }
+  .icon_search {
+    font-size: 19px;
+    width: 40px;
+    height: 40px;
+  }
+  .slider {
+    display: none;
+  }
+  .header-product {
+    display: none;
+  }
+  .menu {
+    height: 70px;
+  }
+  .menu .header-menu-left {
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .menu .right li {
+    display: inline-block;
+    top: 0;
+    line-height: 0;
+    padding-left: 30px;
+    margin-top: -10px;
+    margin-bottom: -5px;
+  }
+  .reponsive-menu-right {
+    margin-left: 15px;
+  }
+  .filter .left {
+    width: 22%;
+    overflow-y: none;
+    border-right: 3px solid rgb(26, 148, 255);
+    height: 85.5rem;
+  }
+  .filter .right {
+    width: 75%;
+  }
+  .filter .right .main-product-iphone li {
+    width: 200px;
+    height: 311px;
+  }
+  .bestseller {
+    display: none;
+  }
+  .address-store h1 {
+    height: 20px;
+    font-size: 50px;
+    display: inline-block;
+    margin-left: 285px;
+  }
+  .main-footer {
+    padding-left: 450px;
+  }
+  .main-footer li {
+    height: 40px;
+    width: 400px;
+  }
+  .main-footer li h2 {
+    padding-top: 10px;
+  }
+  .footer-footer {
+    display: none;
+  }
+}
+
+@keyframes registration {
+  from {
+    opacity: 0;
+    transform: translateY(-300px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
